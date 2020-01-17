@@ -57,28 +57,28 @@ coregen:
 
 coreinit:
 	st		r1, 58
-	st		r1, 58
-	st		r1, 58
-	st		r1, 58
-	st		r1, 58
-	st		r1, 58
-	st		r1, 58
-	st		r1, 58
-	st		r1, 58
-	st		r1, 58
+#	st		r1, 58
+#	st		r1, 58
+#	st		r1, 58
+#	st		r1, 58
+#	st		r1, 58
+#	st		r1, 58
+#	st		r1, 58
+#	st		r1, 58
+#	st		r1, 58
 	ld		%0, r16
 
 corelive:
 	live	%985341
-	live	%985341
-	live	%985341
-	live	%985341
-	live	%985341
-	live	%985341
-	live	%985341
-	live	%985341
-	live	%985341
-	live	%985341
+#	live	%985341
+#	live	%985341
+#	live	%985341
+#	live	%985341
+#	live	%985341
+#	live	%985341
+#	live	%985341
+#	live	%985341
+#	live	%985341
 	zjmp	%:corelive
 
 avdefgeni:

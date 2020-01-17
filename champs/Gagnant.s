@@ -21,7 +21,7 @@ code:		live %42			# 5
 		zjmp %-200			# 3
 		sti  r15,%0,r14			# 6
 		zjmp %-200
-	
+
 avantdebut:	sti   r1,%:code,%1  # 		#7	
 		sti   r1,%:code,%15 # 		#7	
 		sti   r1,%:code,%29 # 		#7	
@@ -56,13 +56,13 @@ level101:	live %42
 		ld   %-190, r14			#=$A-6-4
 		ld   %0,r2
 		zjmp %:label
-		
+
 level111:	live %42	
 		ldi  %12, %:code, r15		#set des octets 13-16
 		ld   %-182, r14			# $A -6 -12
 		ld   %0,r2
 		zjmp %:label
-		
+
 level100:	live %42
 		ldi  %0, %:code, r15		#set des octets 1-4
 		ld   %-194, r14			# $A -6 -0
